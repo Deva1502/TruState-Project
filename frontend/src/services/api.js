@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/api/sales',
+    baseURL: 'https://trustate-project-2.onrender.com/api/sales',
 });
 
 // Helper to clean empty params
